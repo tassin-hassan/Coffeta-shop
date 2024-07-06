@@ -104,7 +104,7 @@ header nav ul li a:hover {
     display: flex;
     padding: 10px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     
 }
 
@@ -178,11 +178,11 @@ header nav ul li a:hover {
     display: flex;
     padding: 10px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .shop-header h3 {
-    color: orange;
+    color: rgb(255, 255, 255);
     padding: 10px 30px;
 }
 

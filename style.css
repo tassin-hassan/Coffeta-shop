@@ -28,6 +28,14 @@ header {
     z-index: 1;
 }
 
+.logo img{
+width: 150px;   
+padding-top: 80px;
+/* padding-left: 20px ;  */
+display: flex;
+
+}
+
 header .logo a {
     font-size: 30px;
     color: white;
@@ -89,7 +97,7 @@ header nav ul li a:hover {
 .menu {
     background-color: #333333;
     width: 100%;
-    text-align: center;
+    text-align: right;
 }
 
 .menu .menu-header {
@@ -97,6 +105,7 @@ header nav ul li a:hover {
     padding: 10px;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .menu-header h3 {
@@ -125,15 +134,15 @@ header nav ul li a:hover {
 }
 
 .menu .menu-content .hot-coffees .hot-coffees-image img {
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 .menu .menu-content .cold-coffees .cold-coffees-image img {
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 .menu .menu-content .frappucino-coffees .frappucino-coffees-image img {
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 .menu .menu-content .hot-coffees-body,
